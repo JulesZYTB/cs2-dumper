@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-14 23:58:25.486779500 UTC
+// 2025-10-16 05:43:35.292643700 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -4293,7 +4293,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_WaitComplete = 0x50; // CPulse_ResumePoint
         }
         // Parent: CCSPlayerPawnBase
-        // Field count: 122
+        // Field count: 121
         //
         // Metadata:
         // MNetworkOutOfPVSUpdates
@@ -4466,43 +4466,42 @@ namespace CS2Dumper.Schemas {
             public const nint m_ignoreLadderJumpTime = 0x1AE4; // float32
             public const nint m_bKilledByHeadshot = 0x1AE8; // bool
             public const nint m_LastHitBox = 0x1AEC; // int32
-            public const nint m_LastHealth = 0x1AF0; // int32
-            public const nint m_pBot = 0x1AF8; // CCSBot*
-            public const nint m_bBotAllowActive = 0x1B00; // bool
-            public const nint m_thirdPersonHeading = 0x1B04; // QAngle
-            public const nint m_flSlopeDropOffset = 0x1B10; // float32
-            public const nint m_flSlopeDropHeight = 0x1B14; // float32
-            public const nint m_vHeadConstraintOffset = 0x1B18; // Vector
-            public const nint m_nLastPickupPriority = 0x1B24; // int32
-            public const nint m_flLastPickupPriorityTime = 0x1B28; // float32
-            public const nint m_ArmorValue = 0x1B2C; // int32
-            public const nint m_unCurrentEquipmentValue = 0x1B30; // uint16
-            public const nint m_unRoundStartEquipmentValue = 0x1B32; // uint16
-            public const nint m_unFreezetimeEndEquipmentValue = 0x1B34; // uint16
-            public const nint m_iLastWeaponFireUsercmd = 0x1B38; // int32
-            public const nint m_bIsSpawning = 0x1B3C; // bool
-            public const nint m_iDeathFlags = 0x1B48; // int32
-            public const nint m_bHasDeathInfo = 0x1B4C; // bool
-            public const nint m_flDeathInfoTime = 0x1B50; // float32
-            public const nint m_vecDeathInfoOrigin = 0x1B54; // Vector
-            public const nint m_vecPlayerPatchEconIndices = 0x1B60; // uint32[5]
-            public const nint m_GunGameImmunityColor = 0x1B74; // Color
-            public const nint m_grenadeParameterStashTime = 0x1B78; // GameTime_t
-            public const nint m_bGrenadeParametersStashed = 0x1B7C; // bool
-            public const nint m_angStashedShootAngles = 0x1B80; // QAngle
-            public const nint m_vecStashedGrenadeThrowPosition = 0x1B8C; // Vector
-            public const nint m_vecStashedVelocity = 0x1B98; // Vector
-            public const nint m_angShootAngleHistory = 0x1BA4; // QAngle[2]
-            public const nint m_vecThrowPositionHistory = 0x1BBC; // Vector[2]
-            public const nint m_vecVelocityHistory = 0x1BD4; // Vector[2]
-            public const nint m_PredictedDamageTags = 0x1BF0; // CUtlVectorEmbeddedNetworkVar<PredictedDamageTag_t>
-            public const nint m_nHighestAppliedDamageTagTick = 0x1C58; // int32
-            public const nint m_bCommittingSuicideOnTeamChange = 0x1C5C; // bool
-            public const nint m_wasNotKilledNaturally = 0x1C5D; // bool
-            public const nint m_fImmuneToGunGameDamageTime = 0x1C60; // GameTime_t
-            public const nint m_bGunGameImmunity = 0x1C64; // bool
-            public const nint m_fMolotovDamageTime = 0x1C68; // float32
-            public const nint m_angEyeAngles = 0x1C6C; // QAngle
+            public const nint m_pBot = 0x1AF0; // CCSBot*
+            public const nint m_bBotAllowActive = 0x1AF8; // bool
+            public const nint m_thirdPersonHeading = 0x1AFC; // QAngle
+            public const nint m_flSlopeDropOffset = 0x1B08; // float32
+            public const nint m_flSlopeDropHeight = 0x1B0C; // float32
+            public const nint m_vHeadConstraintOffset = 0x1B10; // Vector
+            public const nint m_nLastPickupPriority = 0x1B1C; // int32
+            public const nint m_flLastPickupPriorityTime = 0x1B20; // float32
+            public const nint m_ArmorValue = 0x1B24; // int32
+            public const nint m_unCurrentEquipmentValue = 0x1B28; // uint16
+            public const nint m_unRoundStartEquipmentValue = 0x1B2A; // uint16
+            public const nint m_unFreezetimeEndEquipmentValue = 0x1B2C; // uint16
+            public const nint m_iLastWeaponFireUsercmd = 0x1B30; // int32
+            public const nint m_bIsSpawning = 0x1B34; // bool
+            public const nint m_iDeathFlags = 0x1B40; // int32
+            public const nint m_bHasDeathInfo = 0x1B44; // bool
+            public const nint m_flDeathInfoTime = 0x1B48; // float32
+            public const nint m_vecDeathInfoOrigin = 0x1B4C; // Vector
+            public const nint m_vecPlayerPatchEconIndices = 0x1B58; // uint32[5]
+            public const nint m_GunGameImmunityColor = 0x1B6C; // Color
+            public const nint m_grenadeParameterStashTime = 0x1B70; // GameTime_t
+            public const nint m_bGrenadeParametersStashed = 0x1B74; // bool
+            public const nint m_angStashedShootAngles = 0x1B78; // QAngle
+            public const nint m_vecStashedGrenadeThrowPosition = 0x1B84; // Vector
+            public const nint m_vecStashedVelocity = 0x1B90; // Vector
+            public const nint m_angShootAngleHistory = 0x1B9C; // QAngle[2]
+            public const nint m_vecThrowPositionHistory = 0x1BB4; // Vector[2]
+            public const nint m_vecVelocityHistory = 0x1BCC; // Vector[2]
+            public const nint m_PredictedDamageTags = 0x1BE8; // CUtlVectorEmbeddedNetworkVar<PredictedDamageTag_t>
+            public const nint m_nHighestAppliedDamageTagTick = 0x1C50; // int32
+            public const nint m_bCommittingSuicideOnTeamChange = 0x1C54; // bool
+            public const nint m_wasNotKilledNaturally = 0x1C55; // bool
+            public const nint m_fImmuneToGunGameDamageTime = 0x1C58; // GameTime_t
+            public const nint m_bGunGameImmunity = 0x1C5C; // bool
+            public const nint m_fMolotovDamageTime = 0x1C60; // float32
+            public const nint m_angEyeAngles = 0x1C64; // QAngle
         }
         // Parent: CBaseEntity
         // Field count: 22
