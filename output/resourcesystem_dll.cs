@@ -1,9 +1,9 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-11-20 01:33:09.903018400 UTC
+// 2026-02-26 05:26:00.647208200 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: resourcesystem.dll
-    // Class count: 59
+    // Class count: 58
     // Enum count: 2
     public static class ResourcesystemDll {
         // Alignment: 1
@@ -170,13 +170,6 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MResourceTypeForInfoType
         public static class InfoForResourceTypeProceduralTestResource_t {
-        }
-        // Parent: None
-        // Field count: 0
-        //
-        // Metadata:
-        // MResourceTypeForInfoType
-        public static class InfoForResourceTypeCChoreoSceneFileList {
         }
         // Parent: None
         // Field count: 2
